@@ -14,7 +14,7 @@ var chai = require('chai');
 chai.use(require('chai-fuzzy'));
 var expect = chai.expect;
 
-describe('@datagica/email-parser', function () {
+describe('@datagica/parse-emails', function () {
 
   describe('matching emails', function () {
     it('should match simple emails', function (done) {

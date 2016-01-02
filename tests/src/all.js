@@ -4,7 +4,7 @@ const expect = chai.expect
 
 import parseEmails from '../../lib/parse-emails'
 
-describe('@datagica/email-parser', () => {
+describe('@datagica/parse-emails', () => {
 
     describe('matching emails', () => {
       it('should match simple emails', done => {
