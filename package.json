@@ -1,6 +1,6 @@
 {
   "name": "@datagica/parse-emails",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Email address parser",
   "main": "./lib/parse-emails.js",
   "scripts": {

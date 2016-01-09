@@ -16,7 +16,7 @@ class ParseEmails {
     } else if (typeof input.text === 'string') {
       text = input.text
     } else {
-      throw new Error(`input is not text but ${typeof input}`)
+      return Promise.reject(new Error(`input is not text but ${typeof input}`))
     }
 
     const matches = text.match(this.pattern)
