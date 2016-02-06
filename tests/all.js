@@ -2,7 +2,7 @@ const chai = require('chai')
 chai.use(require('chai-fuzzy'))
 const expect = chai.expect
 
-import parseEmails from '../../lib/parse-emails'
+const parseEmails = require("../lib/parse-emails");
 
 describe('@datagica/parse-emails', () => {
 
