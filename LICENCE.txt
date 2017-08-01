@@ -1,8 +1,8 @@
 
    @datagica/parse-emails
-   A Node module that parses email addresses from a document
+   Extract email addresses from text
 
-   Copyright (C) 2016  Julian Bilcke <julian.bilcke@datagica.com>
+   Copyright (C) 2016-2017  Julian Bilcke <julian.bilcke@datagica.com>
 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by

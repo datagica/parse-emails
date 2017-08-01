@@ -1,29 +1,29 @@
 {
   "name": "@datagica/parse-emails",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Email address parser",
-  "main": "./lib/parse-emails.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha --harmony --bail --require chai tests/*.js"
   },
   "author": "Julian Bilcke <julian.bilcke@datagica.com>",
   "license": "GPL-3.0",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/datagica/parse-emails.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datagica/parse-emails.git"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
+    "email-addresses": "^3.0.1"
   },
   "devDependencies": {
-    "chai": "3.2.0",
-    "chai-fuzzy": "1.6.0",
-    "deep-eql": "0.1.3",
-    "ghooks": "0.3.2",
-    "lodash": "3.10.1",
-    "mocha": "2.3.3",
-    "underscore": "1.8.3"
+    "chai": "^4.1.0",
+    "chai-fuzzy": "^1.6.1",
+    "deep-eql": "^2.0.2",
+    "lodash": "^4.17.4",
+    "mocha": "^3.5.0",
+    "underscore": "^1.8.3"
   }
 }
