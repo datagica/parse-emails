@@ -1,6 +1,6 @@
 {
   "name": "@datagica/parse-emails",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Email address parser",
   "main": "./lib/index.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "access": "public"
   },
   "dependencies": {
+    "@datagica/tokenize": "^0.0.2",
     "email-addresses": "^3.0.1"
   },
   "devDependencies": {
